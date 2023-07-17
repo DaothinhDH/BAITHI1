@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    position: relative;
+    width: 700px;
+    height: 300px;
+    background-image: url(beach3.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.main {
+    width: 400px;
+    height: 100px;
+    background-color: rgba(198, 157, 24, 0.555);
+    position: absolute;
+    top: 150px;
+
+}
+
+h3 {
+    font-weight: 800;
+    font-size: 30px;
+    padding: 5px;
+
+}
+
+.container {
+    width: 700px;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 40px;
+
+
+}
+
+figcaption {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+
+}
+
+.img {
+    margin-bottom: 20px;
+}
+
+hr {
+    border: 3px solid coral;
+
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
